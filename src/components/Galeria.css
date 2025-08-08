@@ -1,0 +1,54 @@
+.seccion {
+  padding: 2rem 0;
+  background-color: #ffffff;
+  text-align: center;
+}
+
+.seccion h2 {
+  margin-bottom: 2rem;
+  font-size: 2rem;
+  color: #0d3b66;
+}
+
+/* Contenedor del slider */
+.slick-slider {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+/* Estilo de cada imagen */
+.slick-slide img {
+  width: 100%;
+  max-height: 480px; /* Ajustá esta altura como gustes */
+  object-fit: cover;
+  object-position: center;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  display: block;
+  margin: 0 auto;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .slick-slide img {
+    max-height: 300px;
+  }
+
+  .seccion h2 {
+    font-size: 1.5rem;
+  }
+}
+/* Agrandar los dots del carrusel */
+/* Aumentar tamaño y color de los dots inactivos */
+.slick-dots li button:before {
+  font-size: 16px !important;
+  color: #ccc !important;
+  opacity: 1 !important;
+}
+
+.slick-dots li.slick-active button:before {
+  font-size: 20px !important;
+  color: #0d3b66 !important;
+  opacity: 1 !important;
+}

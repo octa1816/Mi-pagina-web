@@ -1,0 +1,14 @@
+.seccion h2 {
+  margin-bottom: 1rem;
+  color: #004466;
+  text-align: center;
+}
+
+.seccion p {
+  font-size: 1.15rem;
+  color: #444;
+  line-height: 1.7;
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+}
