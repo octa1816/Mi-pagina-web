@@ -7,7 +7,7 @@ El objetivo del sitio es mostrar de forma clara y profesional los servicios que 
 ---
 
 ## 🌐 Sitio Web en Producción
-[Visitar página](https://octa1816.github.io/Mi-pagina-web/)
+[Visitar página][(https://octa1816.github.io/Mi-pagina-web/)](https://claudiofariacmf.github.io/paginaclaudio/)
 
 ---
 
